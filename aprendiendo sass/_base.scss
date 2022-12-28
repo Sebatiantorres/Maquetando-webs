@@ -1,0 +1,53 @@
+
+//variables
+$fuente-tipica: sans-serif, Helvetica, Arial;
+$color-fondo: #ccc;
+$color-secundario: blue;
+//uso de variables
+body {
+    background-color: $color-fondo;
+}
+
+h1{
+    font-family: $fuente-tipica;
+}
+//anidacion 
+.caja {
+    border: 1px solid black;
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    h1 {
+        color: blue;
+    }
+    p{
+        color: green;
+    }
+    .info {
+        font-size: 10px;
+    }
+}
+
+@mixin holamundo(){
+    border: 5px solid blue;
+    border-radius: 3px;
+    color: lightblue;
+    padding: 30px;
+    box-shadow: inset 0px 0px 10px black;    
+}
+
+.menu {
+    @include holamundo();
+}
+
+%alert-normal {
+    border: 1px solid gray;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    width: 30%;
+}
+
+.alert {
+    @extend %alert-normal;
+}

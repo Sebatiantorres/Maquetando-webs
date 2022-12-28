@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Web master css</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/fontello.css">
+</head>
+
+<body>
+    <!--Inicio de la cabecera-->
+    <header id="header">
+        <div id="logotipo">
+            <img src="img/logo.png" alt="Logotipo de la web">
+        </div>
+        <h1>
+            <a href="index.html">MASTER EN CSS</a>
+        </h1>
+        
+    </header>
+    <!--Fin de la cabecera-->
+
+    <!--MENU DE NAVEGACION-->
+    <nav  id="nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html">Contenido</a></li>
+            <li><a href="index.html">Requerimientos</a></li>
+            <li class="desplegar">
+                <a href="index.html">Lenguajes</a>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                </ul>
+            </li>
+            <li class="desplegar">
+                <a href="index.html">Frameworks</a>
+                <ul>
+                    <li><a href="#">LESS</a></li>
+                    <li><a href="#">SASS</a></li>
+                    <li><a href="#">Botstrap</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html">Proyectos</a></li>
+            <li><a href="index.html">Reseñas</a></li>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="index.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <!--FIN DEL MENU-->
+    <div id="content">
+        <!--Inicio de la barra lateral-->
+        <aside id="aside">
+            <div class="widget" id="login">
+                <h3>Entrar a la web</h3>
+                <form action="POST">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" name="usuario" id="usuario">
+
+                    <label for="password">Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+                </form>
+                <a href="#">Zona de alumnos</a>
+                <a href="#">Zona de profesor</a>
+                <a href="#">Acceso a calificaciones</a>
+            </div>
+            <div class="widget" id="login">
+                <h3 class="red">Aula virtual 1 </h3>
+                <form action="POST">
+                    <label for="usuario">Nombre de usuario:</label>
+                    <input type="text" name="usuario" id="usuario">
+
+                    <label for="password">Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+
+                </form>
+            </div>
+            <div class="widget" id="login">
+                <h3 class="blue">Aula virtual 2 </h3>
+                <form action="POST">
+                    <label for="usuario">Nombre de usuario:</label>
+                    <input type="text" name="usuario" id="usuario">
+
+                    <label for="password">Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+
+                </form>
+            </div>
+            <div class="widget" id="login">
+                <h3>Enlaces de interes</h3>
+                <ul>
+                    <li>
+                        <a href="facebook.com">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="instagram.com">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="telegram.com">Telegram</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <!--Fin de la barra lateral-->
+        
+        <!--FIN de la barra lateral-->
+
+        <!--Inicio de secciones-->
+        <div id="sections">
+            <section id="frontend">
+                <article class="article">
+                    <h2 class="titulo">Noticias frontend</h2>
+                    <p>
+                        <a href="#">Lorem ipsum dolor sit amet</a> consectetur, adipisicing elit. Voluptas illum vero
+                        voluptates, earum illo distinctio Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum corporis assumenda adipisci, aliquid est. Mollitia repudiandae fuga, cum, delectus consequat
+                    </p>
+                    <span class="date">[24-5-2021. Sebastian Torres]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Lorem ipsum dolor sit amet</a> consectetur, adipisicing elit. Voluptas illum vero
+                        voluptates, earum illo distinctio Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum corporis assumenda adipisci, aliquid est. Mollitia repudiandae fuga, cum, delectus consequat
+                    </p>
+                    <span class="date">[24-5-2021. Sebastian Torres]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Lorem ipsum dolor sit amet</a> consectetur, adipisicing elit. Voluptas illum vero
+                        voluptates, earum illo distinctio Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum corporis assumenda adipisci, aliquid est. Mollitia repudiandae fuga, cum, delectus consequat
+                    </p>
+                    <span class="date">[24-5-2021. Sebastian Torres]</span>
+                </article>
+
+            </section>
+            <section id="Backend">
+                <article class="article">
+                    <h2 class="titulo">Noticias backend</h2>
+                    <p>
+                        <a href="#">Lorem ipsum dolor sit amet</a> consectetur, adipisicing elit. Voluptas illum vero
+                        voluptates, earum illo distinctio Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum corporis assumenda adipisci, aliquid est. Mollitia repudiandae fuga, cum, delectus consequat
+                    </p>
+                    <span class="date">[24-5-2021. Sebastian Torres]</span>
+                </article>
+                <article class="article">
+                    <p>
+                        <a href="#">Lorem ipsum dolor sit amet</a> consectetur, adipisicing elit. Voluptas illum vero
+                        voluptates, earum illo distinctio Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum corporis assumenda adipisci, aliquid est. Mollitia repudiandae fuga, cum, delectus consequat
+                    </p>
+                    <span class="date">[24-5-2021. Sebastian Torres]</span>
+                </article>
+                <article class="article">
+                    <p><a href="#">Lorem ipsum dolor sit amet</a> consectetur, adipisicing elit. Voluptas illum vero
+                        voluptates, earum illo distinctio Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum corporis assumenda adipisci, aliquid est. Mollitia repudiandae fuga, cum, delectus consequat
+                    </p>
+                    <span class="date">[24-5-2021. Sebastian Torres]</span>
+                </article>
+            </section>
+            
+        </div>
+        <!--Fin de las secciones-->
+        <aside id="frase">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nam mollitia, recusandae error illo
+            quam
+            <a href="#">Leer mas frases</a>
+        </aside>
+        <div class="clearfix"></div>
+        <div id="history">
+            <a href="#">[Ver historico de noticias]</a>
+        </div>
+        <!--Fin del contenido central-->
+        <div class="clearfix"></div>
+        <footer id="footer">
+            <p>&copy; Desarrollado por Sebastian Torres</p>
+            <p>ig: @sebasss_9, tg: @torresjs</p>
+            <p><a href="https://github.com/Sebatiantorres"> Mis proyectos en Github</a></p>
+        </footer>
+    </div>
+    <!--Fin del contenido principal-->
+</body>
+
+</html>
